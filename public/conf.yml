@@ -38,7 +38,7 @@ sections:
     widgets:
       - type: gl-current-mem
         options:
-          hostname: http://95.179.242.122:61208
+          hostname: http://131.186.58.234:61208
         id: 0_1166_glcurrentmem
   - name: Getting Started
     icon: fas fa-rocket
@@ -118,11 +118,11 @@ sections:
     widgets:
       - type: gl-current-cpu
         options:
-          hostname: http://95.179.242.122:61208
+          hostname: http://131.186.58.234:61208
         id: 0_765_glcurrentcpu
       - type: gl-current-cores
         options:
-          hostname: http://95.179.242.122:61208
+          hostname: http://131.186.58.234:61208
         id: 1_765_glcurrentcores
   - name: 效率工具
     icon: fas fa-battery-full
@@ -242,7 +242,7 @@ sections:
     widgets:
       - type: gl-cpu-history
         options:
-          hostname: http://95.179.242.122:61208
+          hostname: http://131.186.58.234:61208
           limit: 60
         id: 0_1018_glcpuhistory
   - name: System Alerts
@@ -250,14 +250,14 @@ sections:
     widgets:
       - type: gl-alerts
         options:
-          hostname: http://95.179.242.122:61208
+          hostname: http://131.186.58.234:61208
         id: 0_1296_glalerts
   - name: System Load
     icon: fas fa-tasks-alt
     widgets:
       - type: gl-system-load
         options:
-          hostname: http://95.179.242.122:61208
+          hostname: http://131.186.58.234:61208
         id: 0_1061_glsystemload
     displayData:
       sortBy: default
@@ -270,7 +270,7 @@ sections:
     widgets:
       - type: gl-network-interfaces
         options:
-          hostname: http://95.179.242.122:61208
+          hostname: http://131.186.58.234:61208
           limit: 500
         id: 0_1806_glnetworkinterfaces
     displayData:
@@ -284,7 +284,7 @@ sections:
     widgets:
       - type: gl-disk-io
         options:
-          hostname: http://95.179.242.122:61208
+          hostname: http://131.186.58.234:61208
         id: 0_579_gldiskio
     displayData:
       sortBy: default
